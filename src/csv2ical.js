@@ -33,10 +33,12 @@ const stream = fs.createReadStream(argv.i);
 // const log = new winston.Logger();
 const cal = ical.default();
 
-// ToDo reading ProdID from args or config file
+// "This property specifies the identifier for the product that created the 
+// iCalendar object." "The property MUST be specified once in an iCalendar
+// object." // https://datatracker.ietf.org/doc/html/rfc5545#section-3.7.3
 cal.prodId({
-  company: 'My Company',
-  product: 'My Product',
+  company: 'kakurady',
+  product: 'csv2ical',
   language: 'EN',
 });
 cal.name('My Calendar');

@@ -1,7 +1,7 @@
 {
   "name": "csv2ical",
-  "description": "Quick and dirty CSV to iCal convertor",
-  "author": "Amine Benseddik <amine.benseddik@gmail.com>",
+  "description": "Quick and dirty CSV to iCal converter",
+  "author": "Kakurady <kakurady@gmail.com>",
   "homepage": "http://c2fo.github.com/fast-csv/index.html",
   "license": "MIT",
   "version": "0.1.2",
@@ -14,13 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:amine7536/csv2ical.js.git"
+    "url": "git@github.com:Kakurady/csv2ical.js.git"
   },
   "keywords": [
     "csv",
     "parser",
+    "converter",
     "ical",
-    "calendar"
+    "calendar",
+    "icalendar",
+    "rfc2445",
+    "rfc5545"
   ],
   "devDependencies": {
     "eslint": "^8.46.0",
